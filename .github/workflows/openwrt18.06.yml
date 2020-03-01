@@ -68,7 +68,7 @@ jobs:
         run: |
           ./scripts/feeds update -a
           ./scripts/feeds install -a
-      - name: Generate configuration file
+      - name: 自定义配置
         run: |
           rm -f ./.config*
           touch ./.config
